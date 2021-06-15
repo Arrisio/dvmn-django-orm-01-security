@@ -4,7 +4,3 @@
 [Ссылка на урок](https://dvmn.org/modules/django-orm/lesson/watching-storage)
 
 [Сслыка на исходник](https://github.com/dvmn-tasks/django-orm-watching-storage)
-
-Изменено по сравнению с исходником:
-- Код из начальных шагов урока добавлен как комментарий `main.py`
-- Добавлены настройки подключения к бд в `settings.py`
