@@ -1,9 +1,10 @@
-#Курс "Знакомство с Django: ORM" 
-##Задача "Урок 1. Пишем пульт охраны банка"
+# Курс "Знакомство с Django: ORM" 
+## Задача "Урок 1. Пишем пульт охраны банка"
 
-Ссылка на урок: https://dvmn.org/modules/django-orm/lesson/watching-storage
-исходник: https://github.com/dvmn-tasks/django-orm-watching-storage
+[Ссылка на урок](https://dvmn.org/modules/django-orm/lesson/watching-storage)
 
-Изменено:
+[Сслыка на исходник](https://github.com/dvmn-tasks/django-orm-watching-storage)
+
+Изменено по сравнению с исходником:
 - Код из начальных шагов урока добавлен как комментарий `main.py`
 - Добавлены настройки подключения к бд в `settings.py`
