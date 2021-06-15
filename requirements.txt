@@ -1,5 +1,5 @@
 pytz==2017.2
 django==1.11.*
 psycopg2-binary==2.8.*
-humanize=3.9.*
+humanize==3.9.*
 
