@@ -10,7 +10,7 @@ def storage_information_view(request):
         {
             "who_entered": visit.passcard.owner_name,
             "entered_at": localtime(visit.entered_at),
-            "duration": now()-localtime(visit.entered_at),
+            "duration": visit.format_duration(visit.duration),
         }
         for visit in Visit.objects.filter(leaved_at__isnull=True)
     ]
