@@ -41,7 +41,5 @@ class Visit(models.Model):
         humanize.i18n.activate("ru_RU")
         return humanize.precisedelta(duration, minimum_unit="seconds", format="%0.0f", suppress=["days"])
 
-
     def is_visit_long(self, minutes=60):
         return self.duration > timedelta(minutes=minutes)
-

@@ -3,9 +3,8 @@ from datacenter.models import Visit
 from django.shortcuts import render
 from django.utils.timezone import now, localtime
 
-def storage_information_view(request):
-    # Программируем здесь
 
+def storage_information_view(request):
     non_closed_visits = [
         {
             "who_entered": visit.passcard.owner_name,
@@ -17,4 +16,4 @@ def storage_information_view(request):
     context = {
         "non_closed_visits": non_closed_visits,  # не закрытые посещения
     }
-    return render(request, 'storage_information.html', context)
+    return render(request, "storage_information.html", context)
