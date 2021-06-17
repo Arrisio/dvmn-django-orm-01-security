@@ -31,10 +31,7 @@ class Visit(models.Model):
 
     @property
     def duration(self):
-        if self.leaved_at:
-            return self.leaved_at - localtime(self.entered_at)
-        else:
-            return now() - localtime(self.entered_at)
+        return localtime(self.leaved_at) - localtime(self.entered_at)
 
     @staticmethod
     def format_duration(duration):
