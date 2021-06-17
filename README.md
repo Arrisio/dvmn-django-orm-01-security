@@ -1,7 +1,6 @@
 # Курс "Знакомство с Django: ORM" 
 ## Задача "Урок 1. Пишем пульт охраны банка"
 
-# Пульт охраны банка
 <img src="https://dvmn.org/media/lessons/Django_1-st_LVl_003.png" alt="security" width="150"/>
 
 Репозиторий с сайтом для урока «Пишем пульт охранника банка» курса [dvmn.org](https://dvmn.org/modules/)
